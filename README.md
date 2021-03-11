@@ -32,34 +32,32 @@ This paper aims to detect depression from speech signals using CNNs.
 In order to achieve the following objective, the following sub-objectives must be fulfilled:
 
 1.Audio Pre-processing (Planning to use pyAudioAnalysis and Sox/RubberBand)
-- [ ] Noise Reduction - Removal of background hissing, humming and buzzing sounds
-- [ ] Speech Diarization - Splitting session recordings to remove the voice of the virtual interviewer, since that’s essentialy noise
-- [ ] Speech Recombination - Combining speech segments of same speaker
-- [ ] Data Augmentation - Since non-depressed samples is thrice the depressed samples and data is limited, oversampling is needed to counter data imbalance* 
+- [x] Noise Reduction - Removal of background hissing, humming and buzzing sounds
+- [x] Speech Diarization - Splitting session recordings to remove the voice of the virtual interviewer, since that’s essentialy noise
+- [x] Speech Recombination - Combining speech segments of same speaker
+- [x] Data Augmentation - Since non-depressed samples is thrice the depressed samples and data is limited, generating artificial samples becomes important
 
 2.Data Preparation (Planning to use scikit-learn)
-- [ ] Random Oversampling - Since non-depressed samples is thrice the depressed samples and data is limited, oversampling is needed to counter data imbalance*
-- [ ] Spectrogram Conversion - Convertiing audio samples to spectrogram images
-- [ ] Data Normalization - Normalizing image tensors
-- [ ] Data Splitting - A standard 80:20 train-test split
+- [x] Spectrogram Conversion - Convertiing audio samples to spectrogram images
+- [x] Data Normalization - Normalizing image tensors
+- [x] Data Splitting - A standard 80:20 train-test split
 
 3.Model Training (Planning to use Keras)
-- [ ] Defining model architecture
-- [ ] Deciding ideal metric - F1 Score encapsulates precision and recall, making it an ideal choice
+- [x] Defining model architecture
+- [x] Deciding ideal metric - F1 Score encapsulates precision and recall, making it an ideal choice
 - [ ] Training
 
 4.Documentation (Planning to write a research paper, if results are satisfactory)
 
-* I will either be doing data augmentation or random oversampling
-
 ## Project Timeline
 
-- [ ] Sub-objective 1 : 20th January 2021 - 31st January 2021
-- [ ] Sub-objective 2 : 1st February 2021 - 12th February 2021
-- [ ] Sub-objective 3 : 13th February 2021 - 25th February 2021
-- [ ] Sub-objective 4 : 8th March 2021 - 20th March 2021
+- [x] Sub-objective 1 : 20th January 2021 - 31st January 2021
+- [x] Sub-objective 2 : 1st February 2021 - 12th February 2021
+- [x] Sub-objective 3 : 13th February 2021 - 25th February 2021
+- [ ] Sub-objective 3 (Continued) : 8th March 2021 - 15th March 2021
+- [ ] Sub-objective 4 : 15th March 2021 - 25th March 2021
 
-Tentative Submission : 21st March 2021
+Tentative Submission : 26th March 2021
 
 ## References
 
