@@ -40,7 +40,7 @@ In order to achieve the following objective, the following sub-objectives must b
 2.Data Preparation (Planning to use scikit-learn)
 - [x] Spectrogram Conversion - Convertiing audio samples to spectrogram images
 - [x] Data Normalization - Normalizing image tensors
-- [x] Data Splitting - A standard 80:20 train-test split
+- [x] Data Splitting - A standard train-dev-test split
 
 3.Model Training (Planning to use Keras)
 - [x] Defining model architecture
