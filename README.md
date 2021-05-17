@@ -1,5 +1,4 @@
 # Detecting-Depression-From-Speech-Signals
-Reading Course Project under Dr. Nitin Sharma
 
 ## Motivation
 
@@ -17,7 +16,7 @@ The 2018 Interspeech Conference witnessed the first instances of diagnosing depr
 
 Hanai et al. [6] presented a depression detection model based on sequences of audio and text transcriptions. They evaluated a regularized logistic regression model (context-free and weighted), and a long short-term memory (LSTM) model (using the sequences of responses, and without context of the questions). Their findings showed that context-free modelling based on text features performed better than audio features when classifying for a binary outcome (depressed vs. non-depressed). However, audio features were more accurate in determining the multi-class depression score. As expected, the multi-modal model yielded the best performance. 
 
-This paper aims to propose a novel method for speech-based diagnosis of depression using convolutional neural networks.
+This project aims to propose a method for speech-based diagnosis of depression using convolutional neural networks.
 
 ## Data
 
@@ -26,10 +25,6 @@ The data will be drawn from the Distress Analysis Interview Corpus (DAIC) (7), t
 Data collected include audio and video recordings and extensive questionnaire responses; this part of the corpus includes the Wizard-of-Oz interviews, conducted by an animated virtual interviewer called Ellie, controlled by a human interviewer in another room. Data has been transcribed and annotated for a variety of verbal and non-verbal features. This dataset includes 189 sessions of interactions ranging between 7-33min (with an average of 16min). Each session includes transcript of the interaction, participant audio files, and facial features.
 
 ## Objectives
-
-This paper aims to detect depression from speech signals using CNNs.
-
-In order to achieve the following objective, the following sub-objectives must be fulfilled:
 
 1.Audio Pre-processing (Planning to use pyAudioAnalysis and Sox/RubberBand)
 - [x] Noise Reduction - Removal of background hissing, humming and buzzing sounds
@@ -46,18 +41,6 @@ In order to achieve the following objective, the following sub-objectives must b
 - [x] Defining model architecture
 - [x] Deciding ideal metric - F1 Score encapsulates precision and recall, making it an ideal choice
 - [ ] Training
-
-4.Documentation (Planning to write a research paper, if results are satisfactory)
-
-## Project Timeline
-
-- [x] Sub-objective 1 : 20th January 2021 - 31st January 2021
-- [x] Sub-objective 2 : 1st February 2021 - 12th February 2021
-- [x] Sub-objective 3 : 13th February 2021 - 25th February 2021
-- [ ] Sub-objective 3 (Continued) : 8th March 2021 - 15th March 2021
-- [ ] Sub-objective 4 : 15th March 2021 - 25th March 2021
-
-Tentative Submission : 26th March 2021
 
 ## References
 
